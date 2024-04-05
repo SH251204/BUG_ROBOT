@@ -15,20 +15,20 @@ class Config(object):
     API_ID = 123456  # integer value, dont use "" this sign get it form my.telegram.org
     API_HASH = "" # get it form my.telegram.org
     TOKEN = ""  # get it form @botfather.
-    OWNER_ID = 6045293810  # got to @Iro_m_bot and type /id
-    OWNER_USERNAME = "shaeep43" # your telegram username
+    OWNER_ID = 7178437397  # got to @Iro_m_bot and type /id
+    OWNER_USERNAME = "NoT_uR_SoHeL" # your telegram username
     ALLOW_CHATS = True # leave it as it is
-    BOT_USERNAME = "Iro_m_bot" # your bot username get it form @botfather
-    SUPPORT_CHAT = "iro_x_support"  # Your own group for support, do not add the @ if you dont have leave it as it is
-    UPDATES_CHANNEL = "iro_bot_support"  # Your own chsnnel for support, do not add the @ if you dont have leave it as it is
+    BOT_USERNAME = "BugXRobot" # your bot username get it form @botfather
+    SUPPORT_CHAT = "BuG_x_Support"  # Your own group for support, do not add the @ if you dont have leave it as it is
+    UPDATES_CHANNEL = "Unconditional_Dps"  # Your own chsnnel for support, do not add the @ if you dont have leave it as it is
     JOIN_LOGGER =  (
-        -1001690301851
+        -1001958156458
     )  # add @Iro_m_bot in your group and type /id
     EVENT_LOGS = (
-        -1001690301851
+        -1001958156458
     )  # add @Iro_m_bot in your group and type /id
     ERROR_LOG = (
-        -1001690301851
+        -1001958156458
     )  # add @Iro_m_bot in your group and type /id
     STRICT_GMUTE = True #to allow gmutes
     START_STICKER = "" #sticker id for start animation
@@ -54,15 +54,15 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = [6045293810]
+    DRAGONS = [7178437397]
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = [6045293810]
+    DEV_USERS = [7178437397]
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = [6045293810]
+    DEMONS = [7178437397]
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = [6045293810]
-    WOLVES = [6045293810]
-    START_IMG = "https://te.legra.ph/file/32018201f5562ffa3fcc9.jpg" #yor fav img link
+    TIGERS = [7178437397]
+    WOLVES = [7178437397]
+    START_IMG = "https://telegra.ph/file/10f307d89fe1a2495911d.jpg" #yor fav img link
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
